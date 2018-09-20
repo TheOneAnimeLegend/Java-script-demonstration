@@ -5,7 +5,7 @@ let Firstname = "Martin";
 let Lastname = "Yu";
 let Age ="16";
 const ageAfraid = 16;
-let Hair colour = "Black";
+let hairColour = "Black";
 let Eye colour = "Dark Brown";
 let Nationality = "Chinese/Canadian";
 let Personality = "Likes academics and games and anime/kpop";
@@ -30,5 +30,5 @@ console. log(Height);
 console. log(Age);
 console. log(Born at);
 console. log(Social skills);
-console. log(hair)
-console. log(male)
+console. log(hair);
+console. log(male);
