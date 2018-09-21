@@ -12,7 +12,7 @@ let Personality = "Likes academics and games and anime/kpop";
 let Weight = "129lbs";
 let Height = "171cm";
 let Born = "Canada, Ontario, Toronto";
-let Social skills = "Intermediate";
+let Socialskills = "Intermediate";
 let hair = null;
 let male = true;
 //print variabled to console
@@ -27,6 +27,6 @@ console.log(Personality);
 console.log(Weight);
 console.log(Height);
 console.log(Born);
-console.log(Social skills);
+console.log(Socialskills);
 console.log(hair);
 console.log(male);
