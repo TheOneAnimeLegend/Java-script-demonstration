@@ -1,22 +1,16 @@
-let MartinYu = [];
+// Hello world function
+function greet (fistname, lastName){
+  console.log('Hello' + firstname + "world" + lastname);
+}
 
+function square (number) {
+  return number*number
+}
 
-// Firstname, LastName, Age, ageAfraid, Haircolour, Eyecolour, Nationality, Personality, Weight, Height, Born, Socialskills, hair, male
-MartinYu = ["Martin", "Yu", 13, 29, null, false];
-MeganSpence = ["Megan", "Spence", 14, null, true, false, true];
+//firstname, Lastname, age, ageAfraid, hair, male, female
+let MarkMercer = ["Mark", "Mercer", 13, 29, null, true, false];
+let MeganSpence = ["Megan", "Spence", 14, null, true, false, true];
 
-
-
-
-let PhoneBoi = {
-  FirstName: "Phone",
-  LastName: "Boi",
-
-
-let memory = MartinYu.FirstName;
-MartinYu.FirstName = PhoneBoi.FirstName;
-PhoneBoi.FirstName = memory:
-
-
-console.log("Martin's name is " + MartinYu.FirstName);
-console.log("phone's name is " + PhoneBoi.FirstName);
+//calling functions, with arguements
+greet (MarkMercer[0], MarkMercer[1])
+greet (MeganSpence[0], MeganSpence[1])
