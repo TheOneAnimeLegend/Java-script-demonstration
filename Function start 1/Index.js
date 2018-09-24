@@ -14,3 +14,4 @@ let MeganSpence = ["Megan", "Spence", 14, null, true, false, true];
 //calling functions, with arguements
 greet (MarkMercer[0], MarkMercer[1])
 greet (MeganSpence[0], MeganSpence[1])
+greet (square(MarkMercer[2]), MeganSpence[2])
