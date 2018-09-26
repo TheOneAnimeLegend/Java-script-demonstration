@@ -10,4 +10,4 @@ function simpleOperators (numberA, numberB){
 }
 
 let number1 = [4, 7];
-simpleOperators (umber[0], number[1]);
+simpleOperators (number[0], number[1]);
