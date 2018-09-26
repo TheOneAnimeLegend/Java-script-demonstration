@@ -9,5 +9,7 @@ function simpleOperators (numberA, numberB){
  console. log (divide);
 }
 
-let number1 = [4, 7];
+let number1 = [4, 7, 20, 35];
 simpleOperators (number[0], number[1]);
+simpleOperators (number[2], number[3]);
+let skipcount
