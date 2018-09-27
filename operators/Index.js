@@ -8,14 +8,15 @@ function simpleOperators (numberA, numberB){
  console. log (multiply);
  console. log (divide);
 }
-
-let number1 = [4, 7, 20, 35];
+//skip count by 3 for 5 times starting at 5
+function skipcounting (skipcount, times, startingnumber){
+ let number = startingnumber, skipCount;
+ for (let i=1; i<=5; i++){
+   number += skipCount;
+   console.log(number);
+  }
+}
+let number = [4, 7, 20, 35];
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-
-let skipcount = 15;
-console.log(skipCount);
-for (let i=1; i<=5; i++){
-  skipcount *= 3;
-  console.log (skipCount);
-}
+skipcounting (3, 6, 113);
